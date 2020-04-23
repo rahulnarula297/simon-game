@@ -9,7 +9,7 @@ var level=0;
 var started=false;
 
 
-$(document).keypress(function()
+$("#level-title").click(function()
 {
   if(!started){
 
